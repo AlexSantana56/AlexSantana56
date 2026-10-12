@@ -1,251 +1,901 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alejandro Santana | Portafolio</title>
+    <meta
+      name="description"
+      content="Portafolio profesional de Alejandro Santana Moreno, Ingeniero en Tecnologías Computacionales. Proyectos de desarrollo de software, análisis de datos, redes y gestión de proyectos."
+    />
+
+    <title>Alejandro Santana Moreno | Portafolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <style>
-      body {
-        font-family: "Segoe UI", sans-serif;
-      }
-      header,
-      footer {
-        background-color: #17094b;
-        color: white;
-        padding: 20px;
-      }
-      .project-card {
-        margin-bottom: 20px;
-      }
-      a {
-        text-decoration: none;
-        color: #0d6efd;
-      }
-    </style>
-  </head>
-  <body>
-    <header class="text-center">
-      <h1>Alejandro Santana Moreno</h1>
-      <p>Desarrollador Web | Project Manager | Estudiante de ITC</p>
-    </header>
 
-    <div class="container my-5">
-      <section>
-        <h2>Sobre mí</h2>
-        <p>
-          Estudiante comprometido de Ingeniería en Tecnologías Computacionales
-          con pasión por el desarrollo web, la gestión de proyectos y el trabajo
-          en equipo.
-        </p>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body id="inicio">
+    <!-- Navegación -->
+    <nav class="navbar">
+      <div class="nav-inner">
+        <a href="#inicio" class="brand">Alejandro Santana<span>.</span></a>
+
+        <div class="nav-links">
+          <a href="index.html">Inicio</a>
+          <a href="#perfil">Perfil</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#tecnologias">Tecnologías</a>
+          <a href="#formacion">Formación</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+
+        <a
+          href="https://www.linkedin.com/in/alejandro-santana-moreno-218491408"
+          class="nav-linkedin"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visitar mi LinkedIn"
+        >
+          <i class="fa-brands fa-linkedin-in"></i>
+          LinkedIn
+        </a>
+      </div>
+    </nav>
+
+    <main class="site-container">
+      <!-- Portada -->
+      <section class="hero" id="inicio">
+        <div class="hero-content">
+          <span class="eyebrow">
+            <span class="status-dot"></span>
+            INGENIERO EN TECNOLOGÍAS COMPUTACIONALES
+          </span>
+
+          <h1>
+            Alejandro<br />
+            <span>Santana</span> Moreno<span>.</span>
+          </h1>
+
+          <p class="hero-description">
+            Ingeniero en Tecnologías Computacionales recién egresado con
+            experiencia en desarrollo de software, aplicaciones web, bases y
+            análisis de datos, redes y gestión de proyectos tecnológicos.
+            Destaco por mi capacidad de aprendizaje, resolución de problemas,
+            trabajo en equipo y adaptabilidad.
+          </p>
+
+          <!--
+        <div class="hero-roles">
+          <span><i class="fa-solid fa-chart-line"></i> Análisis de datos</span>
+          <span><i class="fa-solid fa-code"></i> Desarrollo web</span>
+          <span><i class="fa-solid fa-list-check"></i> Project management</span>
+          <span><i class="fa-solid fa-network-wired"></i> Redes e infraestructura</span>
+          <span><i class="fa-solid fa-laptop-code"></i> Desarrollo de software</span>
+        </div>
+
+        
+        <div class="hero-actions">
+          <a href="#proyectos" class="btn-primary">
+            Explorar proyectos <i class="fa-solid fa-arrow-down"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/alejandro-santana-moreno-218491408"
+            class="btn-secondary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-linkedin"></i> LinkedIn
+          </a>
+        </div>
+        -->
+
+          <div class="hero-location">
+            <i class="fa-solid fa-location-dot"></i>
+            Puebla, México
+          </div>
+        </div>
+
+        <!--
+-->
+        <div class="hero-visual">
+          <div class="visual-glow"></div>
+          <div class="visual-ring ring-one"></div>
+          <div class="visual-ring ring-two"></div>
+          <div class="visual-ring ring-three"></div>
+
+          <div class="floating-tag tag-nine">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+
+          <div class="floating-tag tag-one">
+            <i class="fa-solid fa-code"></i> Software
+          </div>
+          <div class="floating-tag tag-two">
+            <i class="fa-solid fa-robot"></i> Inteligencia Artificial
+          </div>
+          <div class="floating-tag tag-three">
+            <i class="fa-solid fa-diagram-project"></i> Desarrollo Web
+          </div>
+          <div class="floating-tag tag-four">
+            <i class="fa-solid fa-database"></i> Análisis de Datos
+          </div>
+          <div class="floating-tag tag-five">
+            <i class="fa-solid fa-list-check"></i> Project Management
+          </div>
+          <div class="floating-tag tag-six">
+            <i class="fa-solid fa-network-wired"></i> Redes
+          </div>
+          <div class="floating-tag tag-seven">
+            <i class="fa-solid fa-laptop"></i> Transformación Digital
+          </div>
+          <div class="floating-tag tag-eight">
+            <i class="fa-solid fa-flask"></i> Testing
+          </div>
+        </div>
       </section>
 
-      <section class="mt-4">
-        <h2>Proyectos</h2>
+      <!-- Perfil -->
+      <section class="section profile-section" id="perfil">
+        <div class="section-heading">
+          <span class="section-index">01 / PERFIL</span>
+          <!--  <h2>Sobre mí<span>.</span></h2> -->
+        </div>
 
-        <div class="card project-card">
-          <div class="card-body">
-            <h5 class="card-title">
-              Plataforma web de gestión de servicio social
-            </h5>
-            <p class="card-text">
-              Desarrollo de una plataforma web para administrar proyectos de
-              servicio social universitario. Participé en el análisis de
-              requerimientos, integración del frontend, documentación técnica y
-              validación de funcionalidades.
+        <div class="profile-layout">
+          <div class="profile-photo-wrap">
+            <div class="photo-frame">
+              <!-- Coloca tu fotografía en la misma carpeta y llámala foto.jpg -->
+              <img
+                src="foto.jpg"
+                alt="Fotografía de Alejandro Santana Moreno"
+                class="profile-photo"
+                onerror="
+                  this.style.display = 'none';
+                  this.nextElementSibling.style.display = 'flex';
+                "
+              />
+              <div class="photo-placeholder" style="display: none">
+                <i class="fa-regular fa-user"></i>
+                <span>Agrega tu fotografía</span>
+                <small>foto.jpg</small>
+              </div>
+            </div>
+
+            <div class="photo-caption">
+              <span class="status-dot"></span>
+              Ingeniero recién egresado
+            </div>
+          </div>
+
+          <div class="">
+            <div class="section-headingg">
+              <h2>Sobre mí<span>.</span></h2>
+            </div>
+
+            <p>
+              Soy Ingeniero en Tecnologías Computacionales, egresado del
+              Tecnológico de Monterrey, con experiencia en desarrollo de
+              software, análisis y gestión de datos, infraestructura de redes y
+              gestión de proyectos tecnológicos. He participado en proyectos que
+              abarcan desde el análisis de requerimientos y diseño de soluciones
+              hasta el desarrollo, pruebas, validación y documentación técnica.
             </p>
-            <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript, Docker</p>
+            <p>
+              Además, cuento con experiencia internacional en Colonia, Alemania,
+              donde cursé un programa enfocado en modelos de negocio e
+              inteligencia artificial en CBS International Business School. Esta
+              experiencia me permitió ampliar mi perspectiva sobre la
+              innovación, aplicación de tecnología en el entorno empresarial y
+              el desarrollo de soluciones con valor estratégico. Fortaleciendo
+              mi capacidad de adaptación y colaboración en un entorno
+              multicultural.
+            </p>
+            <div class="profile-facts">
+              <div>
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>ITESM · Campus Puebla</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-globe"></i>
+                <span>Business Models and AI International Certificate</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-language"></i>
+                <span>Inglés C1 · Alemán A2</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Proyectos -->
+      <section class="section" id="proyectos">
+        <div class="section-heading">
+          <span class="section-index">02 / PORTAFOLIO</span>
+          <h2>Experiencia y Proyectos<span>.</span></h2>
+          <p class="section-description">
+            Proyectos de software, aplicaciones web, simulación, bases de datos
+            e infraestructura.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <!-- CINIA -->
+          <article class="project-card">
+            <div class="project-top">
+              <div class="project-icon blue">
+                <i class="fa-solid fa-display"></i>
+              </div>
+              <span class="project-number">01</span>
+            </div>
+
+            <span class="project-category">PRÁCTICAS PROFESIONALES (CINIA DE MÉXICO)</span>
+            <h3>Plataforma Multimedia para Red Local</h3>
+            <p>
+              Desarrollo de una plataforma web para la administración y reproducción de
+              archivos multimedia en múltiples dispositivos dentro de una red local.
+              Realicé el backend para la gestión y reproducción de archivos multimedia.
+              Configuré y validé el acceso de múltiples dispositivos mediante la infraestructura
+              de red local. Participé en el análisis de requerimientos, desarrollo, pruebas y
+              documentación de la solución.
+            </p>
+
+            <div class="tech-tags">
+              <span>React</span><span>JavaScript</span><span>Node.js</span
+              ><span>Redes locales</span><span>Git</span><span>Jira</span>
+            </div>
+
+            <div class="document-links">
+              <span class="document-title">Documentación</span>
+              <a
+                href="https://drive.google.com/file/d/1QX2VnIiS247OKdCFclSDr3f-Hw5Y_IBC/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-regular fa-file-pdf"></i> Manual técnico</a
+              >
+            </div>
+
+            
+          </article>
+
+          <!-- Servicio social -->
+          <article class="project-card">
+            <div class="project-top">
+              <div class="project-icon purple">
+                <i class="fa-solid fa-users-gear"></i>
+              </div>
+              <span class="project-number">02</span>
+            </div>
+
+            <span class="project-category">DESARROLLO WEB</span>
+            <h3>Plataforma de Web para Gestión de Servicio Social</h3>
+            <p>
+              Plataforma web para administrar proyectos de servicio social
+              universitario. Participé en el análisis de requerimientos,
+              integración del frontend, documentación técnica y validación de
+              funcionalidades.
+            </p>
+
+            <div class="tech-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span
+              ><span>Docker</span><span>Figma</span><span>Git</span>
+            </div>
+
+            <div class="document-links">
+              <span class="document-title">Documentación</span>
+              <a
+                href="https://drive.google.com/file/d/1MWmv2iCo3cVif9IE9F4kHo6biJhquobr/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-regular fa-file-pdf"></i> Manual de usuario e
+                interfaces</a
+              >
+              <a
+                href="https://drive.google.com/file/d/1-4WqA8nzwo68H3QNfmEhrYDdpL6ckL17/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-regular fa-file-pdf"></i> Manual de instalación</a
+              >
+              <a
+                href="https://drive.google.com/file/d/1MBlbstpqFbJ55ecTmUEmx7GgqgUf9xQp/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-regular fa-file-pdf"></i> Software Configuration Management Plan</a
+              >
+              <a
+                href="https://drive.google.com/file/d/1QkQQgocQpLQnq12eNIXiDjCz_Rhysh5y/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-regular fa-file-pdf"></i> Software Design Document</a
+              >
+              <a
+                href="https://drive.google.com/file/d/1C0IGTjiEIT57ZyW8CyFdU_EyQoN_8tFO/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-regular fa-file-pdf"></i> Diseño y bitácora de
+                pruebas</a
+              >
+            </div>
+
             <a
               href="https://github.com/HumbertoPG/SASS"
-              class="btn btn-outline-primary"
+              class="project-link"
               target="_blank"
               rel="noopener noreferrer"
-              >Ver repositorio</a
             >
-          </div>
-        </div>
+              Ver repositorio
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </article>
 
-        <div class="card project-card">
-          <div class="card-body">
-            <h5 class="card-title">Patrón de diseño Observador (Observer)</h5>
-            <p class="card-text">
-              Ejemplo práctico del patrón de diseño Observador, que permite
-              notificar automáticamente a múltiples objetos cuando cambia el
-              estado de un objeto observado.
-            </p>
+          <!-- Patrones de diseño -->
+          <article class="project-card">
+            <div class="project-top">
+              <div class="project-icon blue">
+                <i class="fa-solid fa-diagram-project"></i>
+              </div>
+              <span class="project-number">03</span>
+            </div>
+
+            <span class="project-category">ARQUITECTURA DE SOFTWARE</span>
+            <h3>Patrones de Diseño: Observer y Strategy</h3>
             <p>
-              <strong>Tecnologías:</strong> Programación orientada a objetos,
-              patrones de diseño
+              Ejemplos prácticos de dos patrones de diseño orientados a objetos.
+              Observer permite notificar cambios de estado a distintos objetos;
+              Strategy permite intercambiar algoritmos o comportamientos.
             </p>
-            <a
-              href="https://github.com/AlexSantana56/PatronObservador"
-              class="btn btn-outline-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Ver repositorio</a
-            >
-          </div>
-        </div>
 
-        <div class="card project-card">
-          <div class="card-body">
-            <h5 class="card-title">Patrón de diseño Estrategia (Strategy)</h5>
-            <p class="card-text">
-              Implementación de ejemplo del patrón Estrategia, que permite
-              definir e intercambiar diferentes algoritmos o comportamientos sin
-              modificar el código que los utiliza.
-            </p>
+            <div class="tech-tags">
+              <span>POO</span><span>Patrones de diseño</span>
+            </div>
+
+            <div class="project-actions">
+              <a
+                href="https://github.com/AlexSantana56/PatronObservador"
+                class="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Observer <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a
+                href="https://github.com/AlexSantana56/patronEstrategia"
+                class="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Strategy <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Red metropolitana -->
+          <article class="project-card">
+            <div class="project-top">
+              <div class="project-icon cyan">
+                <i class="fa-solid fa-network-wired"></i>
+              </div>
+              <span class="project-number">04</span>
+            </div>
+
+            <span class="project-category">REDES E INFRAESTRUCTURA</span>
+            <h3>Diseño de Red Metropolitana Empresarial</h3>
             <p>
-              <strong>Tecnologías:</strong> Programación orientada a objetos,
-              patrones de diseño
-            </p>
-            <a
-              href="https://github.com/AlexSantana56/patronEstrategia"
-              class="btn btn-outline-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Ver repositorio</a
-            >
-          </div>
-        </div>
-
-        <div class="card project-card">
-          <div class="card-body">
-            <h5 class="card-title">Diseño de red metropolitana empresarial</h5>
-            <p class="card-text">
               Diseño y configuración de una red metropolitana simulada para una
-              empresa, incluyendo interconexión de dispositivos de red,
-              asignación de direcciones IP, enrutamiento estático y dinámico,
-              configuración de servicios de red y pruebas de conectividad.
+              empresa, incluyendo direccionamiento IP, interconexión de
+              dispositivos, enrutamiento, servicios de red y pruebas de
+              conectividad.
             </p>
-            <p>
-              <strong>Tecnologías:</strong> Cisco Packet Tracer, TCP/IP, VLAN,
-              RIP, OSPF, NAT, ACL, DNS
-            </p>
-            <a
-              href="https://drive.google.com/file/d/10GWEV9ybuVjybe94QCse9A0fk-_kOHH0/view?usp=sharing"
-              class="btn btn-outline-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Ver documentación (PDF)</a
-            >
-          </div>
-        </div>
 
-        <div class="card project-card">
-          <div class="card-body">
-            <h5 class="card-title">EcoSplash – App para el ahorro de agua</h5>
-            <p class="card-text">
-              Desarrollo de app educativa que promueve el ahorro de agua
-              mediante una mascota virtual. Participé como PM, en el diseño e
-              implementación de animaciones y frontend.
+            <div class="tech-tags">
+              <span>Cisco Packet Tracer</span><span>TCP/IP</span
+              ><span>VLAN</span><span>RIP / OSPF</span><span>NAT / ACL</span>
+            </div>
+
+            <div class="project-actions">
+              <a
+                href="https://drive.google.com/file/d/10GWEV9ybuVjybe94QCse9A0fk-_kOHH0/view?usp=sharing"
+                class="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-regular fa-file-pdf"></i> Documentación PDF
+              </a>
+            </div>
+          </article>
+
+          <!-- EcoSplash -->
+          <article class="project-card">
+            <div class="project-top">
+              <div class="project-icon blue">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+              </div>
+              <span class="project-number">05</span>
+            </div>
+
+            <span class="project-category">APLICACIÓN MÓVIL</span>
+            <h3>Aplicación Móvil Educativa</h3>
+            <p>
+              Aplicación educativa que promueve el ahorro de agua mediante una
+              mascota virtual. Participé como Project Manager, en el diseño e
+              implementación del frontend y animaciones.
             </p>
-            <p><strong>Tecnologías:</strong> Xcode, Android Studio</p>
+
+            <div class="tech-tags">
+              <span>Xcode</span><span>Android Studio</span><span>Frontend</span>
+              <span>Diseño</span>
+              <span>Project Management</span>
+            </div>
+
+            <div class="document-links">
+              <span class="document-title">Documentación</span>
+              <a
+                href="https://drive.google.com/file/d/1DQWCF0l4SDWnDrw7Ct1m4ZxS-xPxbRFm/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-regular fa-file-pdf"></i> Manual de usuario</a
+              >
+              <a
+                href="https://drive.google.com/file/d/1ik4MCeFWSPB_GtkuSC8lD06IGd2zwP4r/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-regular fa-file-pdf"></i> Manual de instalación y
+                capacitación</a
+              >
+              <a
+                href="https://drive.google.com/file/d/1vlAdM2kmC9eXjgAEYO9XqRrGqWBPJ3Re/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-regular fa-file-pdf"></i> Acta constitutiva</a
+              >
+              <a
+                href="https://drive.google.com/file/d/1eUYFdkNM5ok4BLbQBBeV5i-lZ4Nj-kzU/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-regular fa-file-pdf"></i> Despliegue e
+                implantación</a
+              >
+              <a
+                href="https://drive.google.com/file/d/1VO8iYsBCIClmtrblWNNQhvak6DkIKmUy/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-regular fa-file-pdf"></i> Diseño de interfaces de
+                usuario</a
+              >
+              <a
+                href="https://drive.google.com/file/d/1PTZjpgNVV5zlB0YZEdOxllCHTrMHw8Ml/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-regular fa-file-pdf"></i> Plan de pruebas</a
+              >
+            </div>
+
             <a
               href="https://github.com/Francisco1583/android_eco_splash"
-              class="btn btn-outline-primary"
+              class="project-link"
               target="_blank"
-              >Ver repositorio</a
+              rel="noopener noreferrer"
             >
-          </div>
-        </div>
+              Ver repositorio
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </article>
 
-        <div class="card project-card">
-          <div class="card-body">
-            <h5 class="card-title">Smart Labs Mechatronics</h5>
-            <p class="card-text">
-              Plataforma web para monitorear el uso de maquinaria en
-              laboratorios. Me desempeñé como PM y en el diseño, documentación e
-              implementación del frontend.
+          <!-- Laboratorio -->
+          <article class="project-card">
+            <div class="project-top">
+              <div class="project-icon green">
+                <i class="fa-solid fa-flask"></i>
+              </div>
+              <span class="project-number">06</span>
+            </div>
+
+            <span class="project-category">APLICACIÓN WEB</span>
+            <h3>Plataforma Web para Gestión de Laboratorios</h3>
+            <p>
+              Aplicación web para monitorear el uso de maquinaria en
+              laboratorios. Participé en la gestión del proyecto, diseño,
+              documentación, frontend y trabajo con bases de datos.
             </p>
-            <p><strong>Tecnologías:</strong> HTML, CSS, PHP, MySQL</p>
+
+            <div class="tech-tags">
+              <span>HTML</span><span>CSS</span><span>PHP</span
+              ><span>MySQL</span><span>SQL</span>
+              <span>Bases de datos</span>
+              <span>Pruebas</span>
+            </div>
+
+            <div class="document-links">
+              <span class="document-title">Documentación</span>
+              <a
+                href="https://drive.google.com/file/d/1rBr1mXnQCxZuRRg7EKruZitLT7hO5vIP/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-regular fa-file-pdf"></i> Manual de usuario e
+                interfaces</a
+              >
+              <a
+                href="https://drive.google.com/file/d/1Rykzoku2Ib4RI0LC8DxJ0LaA2rh6GXaR/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-regular fa-file-pdf"></i> Borrador de página
+                web</a
+              >
+              <a
+                href="https://drive.google.com/file/d/1qwynmPcaQYSMX8tPEqhgUlEEtQlQy-0f/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-regular fa-file-pdf"></i> Especificaciones de
+                requerimientos</a
+              >
+              <a
+                href="https://drive.google.com/file/d/1BDF6QLKVOx8JvztbP0l70DEC6pWhDECf/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-regular fa-file-pdf"></i> Modelo de datos</a
+              >
+            </div>
+
             <a
               href="https://github.com/Francisco1583/CIDMA"
-              class="btn btn-outline-primary"
+              class="project-link"
               target="_blank"
-              >Ver repositorio</a
+              rel="noopener noreferrer"
             >
-          </div>
-        </div>
+              Ver repositorio
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </article>
 
-        <div class="card project-card">
-          <div class="card-body">
-            <h5 class="card-title">Simulación 3D con sistemas multiagentes</h5>
-            <p class="card-text">
-              Montacargas que organizan cajas dentro de un tráiler usando
-              pathfinding y 3DBinPacking. Rol de PM, documentación, diseño y
-              lógica parcial.
+          <!-- Simulación multiagente -->
+          <article class="project-card">
+            <div class="project-top">
+              <div class="project-icon pink">
+                <i class="fa-solid fa-cubes-stacked"></i>
+              </div>
+              <span class="project-number">07</span>
+            </div>
+
+            <span class="project-category">SIMULACIÓN Y ALGORITMOS</span>
+            <h3>Simulación 3D con Sistemas Multiagentes</h3>
+            <p>
+              Simulación de montacargas que organizan cajas dentro de un tráiler
+              mediante algoritmos de búsqueda de caminos y empaquetado 3D.
+              Participé en la gestión del proyecto, documentación y diseño.
             </p>
-            <p><strong>Tecnologías:</strong> Julia, OpenGL</p>
+
+            <div class="tech-tags">
+              <span>Julia</span><span>OpenGL</span><span>Pathfinding</span
+              ><span>3DBinPacking</span><span>Diseño</span>
+            </div>
+
             <a
               href="https://github.com/Francisco1583/robots_amazon"
-              class="btn btn-outline-primary"
+              class="project-link"
               target="_blank"
-              >Ver repositorio</a
+              rel="noopener noreferrer"
             >
-          </div>
-        </div>
+              Ver repositorio
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </article>
 
-        <div class="card project-card">
-          <div class="card-body">
-            <h5 class="card-title">Videojuego 3D en Python con OpenGL</h5>
-            <p class="card-text">
-              Videojuego en primera persona tipo parkour con enemigos, texturas
-              y entorno inmersivo. Participé como PM, documentador, diseñador e
-              implementador de un nivel.
+          <!-- Videojuego -->
+          <article class="project-card">
+            <div class="project-top">
+              <div class="project-icon red">
+                <i class="fa-solid fa-gamepad"></i>
+              </div>
+              <span class="project-number">08</span>
+            </div>
+
+            <span class="project-category">DESARROLLO DE SOFTWARE</span>
+            <h3>Videojuego 3D con Python y OpenGL</h3>
+            <p>
+              Videojuego en primera persona de tipo parkour, con obstáculos,
+              enemigos, texturas y distintos escenarios. Participé en la
+              gestión, documentación, diseño e implementación de un nivel.
             </p>
-            <p><strong>Tecnologías:</strong> Python, OpenGL</p>
+
+            <div class="tech-tags"><span>Python</span><span>OpenGL</span><span>Diseño de niveles</span></div>
+
+            <div class="document-links">
+              <span class="document-title">Documentación</span>
+              <a
+                href="https://drive.google.com/file/d/1-DtcPvppnrPZKdJOxeIzj42no1IoqLpI/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-regular fa-file-pdf"></i> Descripción e
+                instrucciones</a
+              >
+            </div>
+
             <a
               href="https://github.com/AlexSantana56/GhostRunner"
-              class="btn btn-outline-primary"
+              class="project-link"
               target="_blank"
-              >Ver repositorio</a
+              rel="noopener noreferrer"
             >
+              Ver repositorio
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <!-- Stack tecnológico -->
+      <section class="section" id="tecnologias">
+        <div class="section-heading">
+          <span class="section-index">03 / HERRAMIENTAS</span>
+          <h2>Stack Tecnológico<span>.</span></h2>
+          <p class="section-description">
+            Tecnologías, herramientas y conocimientos.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-heading">
+              <i class="fa-solid fa-code"></i>
+              <h3>Programación</h3>
+            </div>
+            <div class="skill-list">
+              <span>Python</span><span>JavaScript</span><span>SQL</span>
+              <span>C++</span><span>C#</span><span>Java</span><span>PHP</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-heading">
+              <i class="fa-solid fa-window-maximize"></i>
+              <h3>Desarrollo Web</h3>
+            </div>
+            <div class="skill-list">
+              <span>HTML</span><span>CSS</span><span>React</span>
+              <span>Node.js</span><span>REST APIs</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-heading">
+              <i class="fa-solid fa-database"></i>
+              <h3>Análisis y Bases de Datos</h3>
+            </div>
+            <div class="skill-list">
+              <span>MySQL</span><span>PostgreSQL</span> <span>Firebase</span
+              ><span>Consultas SQL</span>
+              <span>Modelado de datos</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-heading">
+              <i class="fa-solid fa-network-wired"></i>
+              <h3>Redes e Infraestructura</h3>
+            </div>
+            <div class="skill-list">
+              <span>TCP/IP</span><span>VLAN</span><span>DHCP</span>
+              <span>DNS</span><span>RIP</span><span>OSPF</span> <span>NAT</span
+              ><span>ACL</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-heading">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+              <h3>Herramientas</h3>
+            </div>
+            <div class="skill-list">
+              <span>Git</span><span>GitHub</span><span>Docker</span>
+              <span>Linux</span><span>Postman</span><span>VS Code</span>
+              <span>Figma</span><span>Jira</span><span>Power BI</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-heading">
+              <i class="fa-solid fa-list-check"></i>
+              <h3>Gestión y Calidad</h3>
+            </div>
+            <div class="skill-list">
+              <span>Análisis de requerimientos</span>
+              <span>Documentación técnica</span>
+              <span>Pruebas funcionales</span>
+              <span>Gestión de proyectos</span>
+              <span>Trabajo en equipo</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="languages-panel">
+          <div class="language-title">
+            <i class="fa-solid fa-language"></i>
+            <h3>Idiomas</h3>
+          </div>
+
+          <div class="language-item">
+            <div>
+              <span>Español</span>
+              <small>Nativo</small>
+            </div>
+            <div class="language-bar"><span style="width: 100%"></span></div>
+          </div>
+
+          <div class="language-item">
+            <div>
+              <span>Inglés</span>
+              <small>C1 · Avanzado · TOEFL iBT 2025</small>
+            </div>
+            <div class="language-bar"><span style="width: 85%"></span></div>
+          </div>
+
+          <div class="language-item">
+            <div>
+              <span>Alemán</span>
+              <small>A2 · Básico</small>
+            </div>
+            <div class="language-bar"><span style="width: 35%"></span></div>
           </div>
         </div>
       </section>
 
-      <section class="mt-4">
-        <h2>Habilidades</h2>
-        <ul>
-          <li>
-            Lenguajes: Python, JavaScript, HTML, CSS, PHP, SQL, Swift, Kotlin,
-            C++, Julia
-          </li>
-          <li>Frameworks: React, Node.js</li>
-          <li>Bases de Datos: MySQL, PostgreSQL, Firebase</li>
-          <li>
-            Herramientas: Git, GitHub, Cisco Packet Tracer, App Inventor,
-            OpenGL, Figma
-          </li>
-        </ul>
+      <!-- Formación -->
+      <section class="section" id="formacion">
+        <div class="section-heading">
+          <span class="section-index">04 / FORMACIÓN</span>
+          <h2>Formación Académica<span>.</span></h2>
+        </div>
+
+        <div class="education-list">
+          <article class="education-item">
+            <div class="education-marker">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="education-content">
+              <span class="education-date">AGOSTO 2022 — JUNIO 2026</span>
+              <h3>Ingeniería en Tecnologías Computacionales</h3>
+              <p class="education-institution">
+                Tecnológico de Monterrey · Campus Puebla
+              </p>
+              <p>
+                Formación en programación, desarrollo de software, bases de
+                datos, redes, infraestructura, algoritmos y gestión de
+                proyectos.
+              </p>
+              <div class="education-badges">
+                <span>Promedio: 94.89</span>
+                <span>Beca académica del 50%</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="education-item">
+            <div class="education-marker">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <div class="education-content">
+              <span class="education-date">OTOÑO 2025</span>
+              <h3>
+                Study Abroad Certificate Programme – Business Models and AI
+              </h3>
+              <p class="education-institution">
+                CBS International Business School · Colonia, Alemania
+              </p>
+              <p>
+                Programa internacional enfocado en inteligencia artificial,
+                modelos de negocio, tecnología e innovación en entornos
+                empresariales.
+              </p>
+              <div class="education-badges">
+                <span>Programa internacional</span>
+                <span>30 ECTS</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="education-item">
+            <div class="education-marker">
+              <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <div class="education-content">
+              <span class="education-date">VERANO 2022</span>
+              <h3>Future of Work – Programa Internacional de Verano</h3>
+              <p class="education-institution">
+                Simon Fraser University · Vancouver, Canadá
+              </p>
+              <p>
+                Programa enfocado en emprendimiento, innovación, habilidades
+                para el entorno laboral global y comunicación en inglés.
+                Desarrollé una perspectiva internacional sobre las tendencias
+                del mercado laboral, la colaboración multicultural y la
+                generación de ideas de negocio.
+              </p>
+              <div class="education-badges">
+                <span>Emprendimiento</span>
+                <span>Innovación</span>
+                <span>Comunicación internacional</span>
+              </div>
+            </div>
+          </article>
+        </div>
       </section>
 
-      <section class="mt-4">
-        <h2>Contacto</h2>
-        <p>
-          Email:
-          <a href="mailto:alexsantana0064@gmail.com"
-            >alexsantana0064@gmail.com</a
-          >
-        </p>
-        <p>Teléfono: 222 812 6657</p>
-        <p>Ubicación: Puebla, México</p>
-        <p>
-          GitHub:
-          <a href="https://github.com/AlexSantana56" target="_blank"
-            >github.com/AlexSantana56</a
-          >
-        </p>
-      </section>
-    </div>
+      <!-- Contacto -->
+      <section class="section contact-section" id="contacto">
+        <div class="section-heading">
+          <span class="section-index">05 / CONTACTO</span>
+          <h2>Contacto<span>.</span></h2>
+        </div>
 
-    <footer class="text-center">
-      <p>&copy; 2025 Alejandro Santana Moreno</p>
+        <div class="contact-grid">
+          <a href="mailto:alexsantana0064@gmail.com" class="contact-item">
+            <div class="contact-icon">
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div>
+              <span class="contact-label">Correo electrónico</span>
+              <strong>alexsantana0064@gmail.com</strong>
+            </div>
+            <i class="fa-solid fa-arrow-up-right-from-square contact-arrow"></i>
+          </a>
+
+          <a href="tel:+522228126657" class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <span class="contact-label">Teléfono</span>
+              <strong>+52 222 812 6657</strong>
+            </div>
+            <i class="fa-solid fa-arrow-up-right-from-square contact-arrow"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/alejandro-santana-moreno-218491408"
+            class="contact-item"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact-icon">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <div>
+              <span class="contact-label">LinkedIn</span>
+              <strong>Perfil profesional</strong>
+            </div>
+            <i class="fa-solid fa-arrow-up-right-from-square contact-arrow"></i>
+          </a>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div>
+              <span class="contact-label">Ubicación</span>
+              <strong>Puebla, México</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <span class="footer-name">Alejandro Santana Moreno<span>.</span></span>
+        <span class="footer-copy">Diseñado y desarrollado por Alejandro Santana Moreno. © 2026 · Portafolio profesional</span>
+        <a href="#inicio" class="back-to-top">
+          Volver arriba <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
     </footer>
   </body>
 </html>
